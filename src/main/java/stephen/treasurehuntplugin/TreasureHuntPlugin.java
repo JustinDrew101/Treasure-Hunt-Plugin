@@ -9,7 +9,7 @@ import org.bukkit.plugin.java.JavaPlugin;
 import java.util.HashMap;
 import java.util.Map;
 
-public class TreasureHuntPlugin extends JavaPlugin implements Listener, CommandExecutor {
+public class TreasureHuntPlugin extends JavaPlugin {
     public Map<Location, ItemStack[]> treasureLocations = new HashMap<>();
 
     @Override
